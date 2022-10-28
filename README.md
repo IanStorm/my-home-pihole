@@ -1,2 +1,6 @@
-# my-home-pihole
-Non-public configuration for my personal DNS sinkhole.
+# My Home - Pi-hole 🥧
+
+Garage project for **private purposes**.
+Provides a DNS sinkhole with custom configuration for my home.
+
+**🐳 Make sure you have installed *Docker*.**
