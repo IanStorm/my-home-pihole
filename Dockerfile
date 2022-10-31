@@ -10,3 +10,7 @@ ENV TZ="Europe/Berlin"
 ENV DHCP_ACTIVE="false"
 ENV TEMPERATUREUNIT=c
 ENV WEBTHEME="default-auto"
+#	⬇️	Pi-hole advanced variables
+#		👀 https://github.com/pi-hole/docker-pi-hole/#advanced-variables
+#			⬇️ https://github.com/pi-hole/docker-pi-hole#quick-start
+ENV DNSMASQ_LISTENING=all
