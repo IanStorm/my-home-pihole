@@ -9,6 +9,9 @@ Provides a DNS sinkhole with custom configuration for my home.
 
 **🐳 Make sure you have installed *Docker*.**
 
+See how to put this repo in action at [IanStorm/my-home-raspi](https://github.com/IanStorm/my-home-raspi).
+
+
 ## How to use in "production"? 👨‍💼 👩‍💼
 
 1. Follow ["How to get a pre-built Docker image?"](#how-to-get-a-pre-built-docker-image-☁️)
