@@ -19,6 +19,7 @@ docker run \
 		-t \
 		-p 53:53/tcp -p 53:53/udp \
 		-p 80:80 \
+		--restart=unless-stopped
 		ianstorm/my-home-pihole:latest
 ```
 
@@ -43,7 +44,7 @@ docker pull ianstorm/my-home-pihole:latest
 ```
 
 
-### Sources
+### Sources 📙
 
 * [Official Pi-hole website](https://pi-hole.net/)
 * [GitHub: Pi-hole](https://github.com/pi-hole/pi-hole#readme)
