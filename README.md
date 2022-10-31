@@ -22,7 +22,7 @@ docker run \
 		-t \
 		-p 53:53/tcp -p 53:53/udp \
 		-p 80:80 \
-		--restart=unless-stopped
+		--restart=unless-stopped \
 		ianstorm/my-home-pihole:latest
 ```
 
