@@ -1,5 +1,5 @@
 # ⬇️ Main stage
-FROM pihole/pihole:2023.01.3
+FROM pihole/pihole:2023.01.8
 
 #	⬇️	Pi-hole recommended variables
 #		👀 https://github.com/pi-hole/docker-pi-hole/#recommended-variables
