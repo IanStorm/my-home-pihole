@@ -52,3 +52,4 @@ docker pull ianstorm/my-home-pihole:latest
 * [Official Pi-hole website](https://pi-hole.net/)
 * [GitHub: Pi-hole](https://github.com/pi-hole/pi-hole#readme)
 * [Docker Hub: Pi-hole](https://hub.docker.com/r/pihole/pihole)
+* [GitHub: s6-overlay](https://github.com/just-containers/s6-overlay)

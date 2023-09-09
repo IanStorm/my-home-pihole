@@ -14,3 +14,6 @@ ENV WEBTHEME="default-auto"
 #		👀 https://github.com/pi-hole/docker-pi-hole/#advanced-variables
 #			⬇️ https://github.com/pi-hole/docker-pi-hole#quick-start
 ENV DNSMASQ_LISTENING=all
+
+COPY             ./debian-root/etc/ /etc/
+COPY --chmod=755 ./debian-root/usr/ /usr/
