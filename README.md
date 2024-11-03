@@ -25,6 +25,7 @@ docker run \
 		--restart=unless-stopped \
 		ianstorm/my-home-pihole:latest
 ```
+* To access the GUI open any browser and enter `http://127.0.0.1/admin`.
 
 
 ## How to develop? 👨‍💻 👩‍💻
