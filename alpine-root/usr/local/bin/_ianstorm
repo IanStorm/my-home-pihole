@@ -9,7 +9,7 @@ echo "ℹ️ Adding IanStorm's custom allow- and blocklist entries..."
 
 # 👇 YouTube app for Android
 # 	👀 https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212#youtube-history-3
-pihole -w \
+pihole allow \
 	s.youtube.com \
 	video-stats.l.google.com
 
