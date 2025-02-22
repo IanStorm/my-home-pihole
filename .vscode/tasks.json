@@ -18,6 +18,23 @@
 			"problemMatcher": []
 		},
 		{
+			"label": "run",
+			"type": "shell",
+			"dependsOn":[
+				"build"
+			],
+			"command": "docker",
+			"args": [
+				"run",
+				"--rm",
+				"-i", "-t",
+				"-p", "53:53/tcp", "-p", "53:53/udp",
+				"-p", "80:80",
+				"my-home-pihole"
+			],
+			"problemMatcher": []
+		},
+		{
 			"label": "sync",
 			"type": "shell",
 			"command": "docker run --rm -t -v ${PWD}/:/mnt/ ianstorm/dev-settings-sync sync",
