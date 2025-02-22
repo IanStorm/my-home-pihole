@@ -4,6 +4,9 @@ FROM pihole/pihole:2025.02.3
 
 #	⬇️	Pi-hole recommended variables
 #		👀 https://github.com/pi-hole/docker-pi-hole/#recommended-variables
+ENV FTLCONF_dns_dnssec=true
+#			⬇️ CloudFlare DNS
+ENV FTLCONF_dns_upstreams=1.1.1.1;1.0.0.1
 ENV TZ="Europe/Berlin"
 
 #	⬇️	Pi-hole optional variables
