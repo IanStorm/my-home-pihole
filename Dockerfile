@@ -1,5 +1,5 @@
 # ⬇️ Main stage
-FROM pihole/pihole:2025.11.1
+FROM pihole/pihole:2026.04.0
 
 
 #	⬇️	Pi-hole recommended variables
